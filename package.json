@@ -1,0 +1,36 @@
+{
+    "name": "react-custom-build",
+    "version": "1.0.0",
+    "description": "Sandbox to play with React",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/taktxbip/react-custom-build.git"
+    },
+    "author": "evnomad",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/taktxbip/react-custom-build/issues"
+    },
+    "homepage": "https://github.com/taktxbip/react-custom-build#readme",
+    "devDependencies": {
+        "@babel/cli": "^7.8.4",
+        "@babel/core": "^7.9.0",
+        "@babel/plugin-proposal-class-properties": "^7.8.3",
+        "@babel/plugin-transform-block-scoping": "^7.8.3",
+        "@babel/plugin-transform-classes": "^7.9.2",
+        "@babel/plugin-transform-template-literals": "^7.8.3",
+        "@babel/preset-env": "^7.9.0",
+        "@babel/preset-react": "^7.9.4",
+        "webpack": "^4.42.1",
+        "webpack-cli": "^3.3.11"
+    },
+    "dependencies": {
+        "core-js": "^3.6.4",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    }
+}
